@@ -25,7 +25,7 @@ def analyze():
     }
 
     payload = {
-        "model": "llama-3.1-70b-versatile",
+        "model": "llama-3.1-8b-instant",
         "messages": [
             {"role": "system", "content": "You are a security analysis assistant"},
             {"role": "user", "content": prompt}
